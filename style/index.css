@@ -91,3 +91,14 @@ h1 {
     background-color:grey;
 
 }
+/*Responsive styles */
+/*tablet*/
+@media(max-width:800px){
+    .img-sec div{
+        width: 50%;
+    }
+}
+/*Iphone*/
+@media(max-width:500px){
+    .img-sec div:50% ;
+}
