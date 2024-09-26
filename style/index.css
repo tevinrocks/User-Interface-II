@@ -1,1 +1,93 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    border:1px solid grey;
+}
+header section{
+    display:flex;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: 1320px;
+    justify-content: flex-end;
+    justify-content: space;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    padding: 1% 0;
+
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3% 3%;
+    
+}
+h1 {
+    font-size: 40px;
+    padding: 10% 25%; 
+}
+.img-sec {
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.img-sec div {
+    width:30% ;
+    padding-bottom: 5%;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5%;
+    font-size: 20px;
+    background-color:grey;
+
+}
